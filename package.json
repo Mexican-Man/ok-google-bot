@@ -1,0 +1,25 @@
+{
+  "name": "ok-google-anime-tiddies",
+  "version": "1.0.0",
+  "description": "ok google, anime tiddies",
+  "main": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm src/index.ts"
+  },
+  "author": "Cole Crouter",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dom-parser": "^0.1.6",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.13.0",
+    "google-assistant": "^0.7.0",
+    "html-entities": "^2.3.3",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/dom-parser": "^0.1.1",
+    "@types/node": "^18.11.9"
+  }
+}
